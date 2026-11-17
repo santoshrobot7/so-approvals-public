@@ -1,0 +1,7 @@
+node_modules/
+.wrangler/
+.test-state/
+.ui-state/
+.ui-out/
+.dev.vars
+.e2e-state/

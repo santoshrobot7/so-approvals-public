@@ -1,0 +1,22 @@
+{
+  "name": "so-approvals",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/shared.test.js && node test/api.test.mjs",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "playwright-core": "^1.63.0",
+    "wrangler": "^4.147.0"
+  },
+  "private": "true"
+}
